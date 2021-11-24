@@ -4,7 +4,8 @@ const character = {
     age: 10
 };
 
-character['age'] = 25;
+character.age = 25;
+
 
 
 //1.2
@@ -14,7 +15,7 @@ age = 24
 
 console.log('Soy ' + firstName + ' ' + lastName + ', ' + 'tengo ' + age + ' años y me gustan los lobos.');
 
-
+ 
 //1.3
 const toy1 = {
     name: 'Buss myYear', 
@@ -26,7 +27,7 @@ const toy2 = {
     price: 29
 };
 
-console.log(toy1['price'] + toy2['price']);
+console.log(toy1.price + toy2.price);
 
 
 //1.4
@@ -46,8 +47,9 @@ const car2 = {
 
 globalBasePrice = 25000;
 
-car1['finalPrice'] = car1['basePrice'] + globalBasePrice;
-car2['finalPrice'] = car2['basePrice'] + globalBasePrice;
+car1.finalPrice = car1.basePrice + globalBasePrice;
+car2.finalPrice = car2.basePrice + globalBasePrice;
 
 console.log(car1);
 console.log(car2);
+ 
